@@ -27,10 +27,8 @@ This project demonstrates frontend-backend integration using **React + TypeScrip
 emotion-reflection-tool/
 ├── frontend/                # React + TypeScript frontend
 │   ├── src/
-│   │   ├── App.tsx
-│   │   ├── api.ts           # optional API abstraction
-│   │   └── components/
-│   │       └── EmotionForm.tsx
+│   │   ├── App.tsx         # main logic + emotion form & API call
+│   │   └── api.ts          # emotion API abstraction
 │   └── ...
 │
 └── backend/                 # FastAPI backend
@@ -127,8 +125,5 @@ npm start
 **Komal Sinha**
 [GitHub – @komalsinha1811](https://github.com/komalsinha1811)
 
----
 
-## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
